@@ -4,8 +4,8 @@ from random import randrange
 
 class Circuito():
     corredores = []
-    __posStartY = (-30, -10, 10, 30)
-    __colorTurtle = ('red', 'blue', 'green', 'orange')
+    __posStartY = (-40, -20, 5, 25)
+    __colorTurtle = ('yellow', 'grey', 'green', 'orange')
     
     def __init__(self, width, height):
         self.__screen = turtle.Screen()
